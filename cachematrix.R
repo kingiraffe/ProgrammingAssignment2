@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Inverse matrix if not exist in cache, get the 
+## inversed matrix if exist
 
-## Write a short comment describing this function
+## set&get matrix, set&get inversed matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- matrix()
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## check if exist in cache, inverse or get matrix
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
